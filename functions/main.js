@@ -15,5 +15,5 @@ function move(direction, speed) {
     const element = document.getElementById('car');
     element.innerHTML = 'The car is moving ' + direction +', at ' + speed + ' mph';
 }
-
+    
 move('forward', 25);
